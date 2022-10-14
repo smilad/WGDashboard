@@ -126,7 +126,7 @@ git clone -b v3.1-dev https://github.com/donaldzou/WGDashboard.git wgdashboard
 1. Download WGDashboard
 
    ```shell
-   git clone -b v3.0.6 https://github.com/donaldzou/WGDashboard.git wgdashboard
+   git clone -b v3.0.6 https://github.com/smilad/WGDashboard.git wgdashboard
    
 2. Open the WGDashboard folder
 
