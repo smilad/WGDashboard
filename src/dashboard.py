@@ -712,7 +712,7 @@ def auth():
         config.clear()
         return jsonify({"status": True, "msg": ""})
     config.clear()
-    return jsonify({"status": False, "msg": "Username or Password is incorrect."})
+    return jsonify({"status": False, "msg": "Username or Password is incorrect.","user": config["Account"]["username"], "ep" : password.hexdigest(), "rp" :config["Account"]["password"]  })
 
 
 """
